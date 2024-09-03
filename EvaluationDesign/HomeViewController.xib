@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="EvaluationDesign" customModuleProvider="target">
+            <connections>
+                <outlet property="islaOmetepeImage" destination="j7e-GX-8DX" id="yTq-1J-NYV"/>
+                <outlet property="isletasImage" destination="dmZ-mU-5HB" id="uaJ-On-T6Y"/>
+                <outlet property="sanJuanImage" destination="tlV-f2-7hS" id="pid-cM-vIC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="volcanMasayaImage" destination="dIW-IU-vHH" id="Lmn-EE-USq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10Z-iJ-ZZd">
+                    <rect key="frame" x="0.0" y="110" width="393" height="742"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aK8-YJ-b66">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dfa-KQ-dWU">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Isla Ometepe" translatesAutoresizingMaskIntoConstraints="NO" id="j7e-GX-8DX">
+                                            <rect key="frame" x="8" y="8" width="161" height="234"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="234" id="Ry7-Dh-pwD"/>
+                                                <constraint firstAttribute="width" constant="161" id="vAY-yv-a1G"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="mZk-OY-J8z">
+                                            <rect key="frame" x="178.66666666666666" y="211" width="125.99999999999997" height="20.333333333333343"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tcW-Le-gQF">
+                                                    <rect key="frame" x="0.0" y="-0.33333333333333215" width="22.666666666666668" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qhh-XS-Iqd">
+                                                    <rect key="frame" x="25.666666666666686" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="l0B-Iy-zdj">
+                                                    <rect key="frame" x="51.333333333333343" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tsu-o6-MgS">
+                                                    <rect key="frame" x="77.333333333333343" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6n1-04-Xz8">
+                                                    <rect key="frame" x="103.00000000000003" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20.329999999999998" id="Yra-zH-3sT"/>
+                                            </constraints>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="124,500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Utn-Td-i1R">
+                                            <rect key="frame" x="311" y="211" width="74" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="74" id="P9z-fr-Cda"/>
+                                                <constraint firstAttribute="height" constant="21" id="sLR-kf-pDg"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ometepe es una isla en Nicaragua con dos volcanes y rica naturaleza" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdQ-CS-s9k">
+                                            <rect key="frame" x="185" y="38" width="189" height="150"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Isla de Ometepe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAv-Bd-QNo">
+                                            <rect key="frame" x="206" y="15" width="146" height="29"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WK3-Gv-Pa4">
+                                            <rect key="frame" x="201" y="45" width="157" height="8"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="157" id="fag-Ob-awu"/>
+                                                <constraint firstAttribute="height" constant="8" id="vYQ-vg-Dsg"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="mdQ-CS-s9k" secondAttribute="trailing" constant="19" id="0aa-6j-edY"/>
+                                        <constraint firstItem="NAv-Bd-QNo" firstAttribute="centerX" secondItem="Dfa-KQ-dWU" secondAttribute="centerX" constant="82.5" id="7Ge-cc-zh6"/>
+                                        <constraint firstAttribute="bottom" secondItem="mZk-OY-J8z" secondAttribute="bottom" constant="18.670000000000002" id="AFK-Vw-KYh"/>
+                                        <constraint firstItem="NAv-Bd-QNo" firstAttribute="centerY" secondItem="Dfa-KQ-dWU" secondAttribute="centerY" constant="-95.5" id="Cct-3m-F3A"/>
+                                        <constraint firstItem="Utn-Td-i1R" firstAttribute="leading" secondItem="mZk-OY-J8z" secondAttribute="trailing" constant="6.3300000000000001" id="OlM-20-oFs"/>
+                                        <constraint firstAttribute="bottom" secondItem="Utn-Td-i1R" secondAttribute="bottom" constant="18" id="Oum-Z4-mdf"/>
+                                        <constraint firstItem="WK3-Gv-Pa4" firstAttribute="centerY" secondItem="Dfa-KQ-dWU" secondAttribute="centerY" constant="-76" id="QbG-Qk-dyC"/>
+                                        <constraint firstItem="mZk-OY-J8z" firstAttribute="top" secondItem="mdQ-CS-s9k" secondAttribute="bottom" constant="23" id="a9d-ce-R5R"/>
+                                        <constraint firstAttribute="height" constant="250" id="eEb-b8-0Vv"/>
+                                        <constraint firstItem="WK3-Gv-Pa4" firstAttribute="centerX" secondItem="Dfa-KQ-dWU" secondAttribute="centerX" constant="83" id="f5U-2A-tU5"/>
+                                        <constraint firstItem="j7e-GX-8DX" firstAttribute="leading" secondItem="Dfa-KQ-dWU" secondAttribute="leading" constant="8" id="i93-tZ-fG5"/>
+                                        <constraint firstAttribute="trailing" secondItem="Utn-Td-i1R" secondAttribute="trailing" constant="8" id="rQe-Fb-KhA"/>
+                                        <constraint firstItem="mZk-OY-J8z" firstAttribute="leading" secondItem="j7e-GX-8DX" secondAttribute="trailing" constant="9.6699999999999999" id="rX7-eU-doV"/>
+                                        <constraint firstItem="j7e-GX-8DX" firstAttribute="top" secondItem="Dfa-KQ-dWU" secondAttribute="top" constant="8" id="tN9-CT-uYj"/>
+                                        <constraint firstItem="mdQ-CS-s9k" firstAttribute="leading" secondItem="j7e-GX-8DX" secondAttribute="trailing" constant="16" id="w1P-jG-L6R"/>
+                                        <constraint firstItem="mdQ-CS-s9k" firstAttribute="top" secondItem="Dfa-KQ-dWU" secondAttribute="top" constant="38" id="yGQ-B9-cmB"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9R8-Q1-qMG">
+                                    <rect key="frame" x="0.0" y="250" width="393" height="250"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nicaragua's Unexpected Tropical Charms" translatesAutoresizingMaskIntoConstraints="NO" id="tlV-f2-7hS">
+                                            <rect key="frame" x="8" y="8" width="161" height="234"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="161" id="F0T-eH-e4l"/>
+                                                <constraint firstAttribute="height" constant="234" id="SLT-au-5EX"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="FCY-3t-azy">
+                                            <rect key="frame" x="178.66666666666666" y="211" width="125.99999999999997" height="20.333333333333343"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NzR-e6-dNp">
+                                                    <rect key="frame" x="0.0" y="-0.33333333333333215" width="22.666666666666668" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="E0F-sb-xz0">
+                                                    <rect key="frame" x="25.666666666666686" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yht-9r-IU1">
+                                                    <rect key="frame" x="51.333333333333343" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-00-CGL">
+                                                    <rect key="frame" x="77.333333333333343" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FIe-Y5-NKz">
+                                                    <rect key="frame" x="103.00000000000003" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20.329999999999998" id="Nxm-FT-I6E"/>
+                                            </constraints>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95,800" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8Y-P4-6pV">
+                                            <rect key="frame" x="311" y="211" width="74" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="74" id="g8C-3F-tAN"/>
+                                                <constraint firstAttribute="height" constant="21" id="pXd-dY-pT7"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Juan del Sur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26m-vu-DJU">
+                                            <rect key="frame" x="201" y="15" width="147" height="29"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j95-Rh-vZq">
+                                            <rect key="frame" x="201" y="45" width="157" height="8"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="8" id="m36-Zi-e12"/>
+                                                <constraint firstAttribute="width" constant="157" id="rg4-vx-AN6"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Juan del Sur es un pueblo costero en Nicaragua, famoso por sus playas y ambiente surfero" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wnb-HI-o6v">
+                                            <rect key="frame" x="185" y="50" width="189" height="150"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="250" id="6Yq-A6-64L"/>
+                                        <constraint firstAttribute="trailing" secondItem="r8Y-P4-6pV" secondAttribute="trailing" constant="8" id="E0w-27-tgh"/>
+                                        <constraint firstAttribute="bottom" secondItem="FCY-3t-azy" secondAttribute="bottom" constant="18.670000000000002" id="Mcq-lE-aED"/>
+                                        <constraint firstItem="tlV-f2-7hS" firstAttribute="top" secondItem="9R8-Q1-qMG" secondAttribute="top" constant="8" id="Pdr-x5-Aje"/>
+                                        <constraint firstItem="FCY-3t-azy" firstAttribute="leading" secondItem="tlV-f2-7hS" secondAttribute="trailing" constant="9.6699999999999999" id="Qfc-Ph-VbB"/>
+                                        <constraint firstItem="FCY-3t-azy" firstAttribute="top" secondItem="Wnb-HI-o6v" secondAttribute="bottom" constant="11" id="bOd-Nj-NR4"/>
+                                        <constraint firstAttribute="trailing" secondItem="Wnb-HI-o6v" secondAttribute="trailing" constant="19" id="fMl-F5-426"/>
+                                        <constraint firstItem="26m-vu-DJU" firstAttribute="centerY" secondItem="9R8-Q1-qMG" secondAttribute="centerY" constant="-95.5" id="fdd-Jq-Vpt"/>
+                                        <constraint firstItem="26m-vu-DJU" firstAttribute="centerX" secondItem="9R8-Q1-qMG" secondAttribute="centerX" constant="78" id="gUs-RN-q2c"/>
+                                        <constraint firstItem="j95-Rh-vZq" firstAttribute="centerY" secondItem="9R8-Q1-qMG" secondAttribute="centerY" constant="-76" id="oxZ-Qm-vnj"/>
+                                        <constraint firstItem="tlV-f2-7hS" firstAttribute="leading" secondItem="9R8-Q1-qMG" secondAttribute="leading" constant="8" id="qww-tD-vfs"/>
+                                        <constraint firstAttribute="bottom" secondItem="r8Y-P4-6pV" secondAttribute="bottom" constant="18" id="rLv-pi-u5c"/>
+                                        <constraint firstItem="Wnb-HI-o6v" firstAttribute="leading" secondItem="tlV-f2-7hS" secondAttribute="trailing" constant="16" id="rwb-CL-UjY"/>
+                                        <constraint firstItem="j95-Rh-vZq" firstAttribute="centerX" secondItem="9R8-Q1-qMG" secondAttribute="centerX" constant="83" id="sTT-M3-PoN"/>
+                                        <constraint firstItem="Wnb-HI-o6v" firstAttribute="top" secondItem="9R8-Q1-qMG" secondAttribute="top" constant="50" id="wOF-12-Sam"/>
+                                        <constraint firstItem="r8Y-P4-6pV" firstAttribute="leading" secondItem="FCY-3t-azy" secondAttribute="trailing" constant="6.3300000000000001" id="y5y-lo-iOM"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3x9-uX-v1f">
+                                    <rect key="frame" x="0.0" y="500" width="393" height="250"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ISLETAS DE GRANADA Cuando el volcán Mombacho hizo…" translatesAutoresizingMaskIntoConstraints="NO" id="dmZ-mU-5HB">
+                                            <rect key="frame" x="8" y="8" width="161" height="234"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="161" id="Xz1-UR-Xv1"/>
+                                                <constraint firstAttribute="height" constant="234" id="i65-Yk-7EK"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="cXv-Rt-30R">
+                                            <rect key="frame" x="178.66666666666666" y="211" width="125.99999999999997" height="20.333333333333343"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="e48-EI-P4i">
+                                                    <rect key="frame" x="0.0" y="-0.33333333333333215" width="22.666666666666668" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="w6D-BN-6mL">
+                                                    <rect key="frame" x="25.666666666666686" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dz9-B2-mcU">
+                                                    <rect key="frame" x="51.333333333333343" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Tjb-SC-EFV">
+                                                    <rect key="frame" x="77.333333333333343" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JyJ-oy-1rO">
+                                                    <rect key="frame" x="103.00000000000003" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20.329999999999998" id="N5R-dZ-yzG"/>
+                                            </constraints>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="65,700" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tn4-iO-lYb">
+                                            <rect key="frame" x="311" y="211" width="74" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="8fU-B3-sPm"/>
+                                                <constraint firstAttribute="width" constant="74" id="Xpe-GW-dPp"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Isletas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeU-6J-T86">
+                                            <rect key="frame" x="246.00000000000003" y="15" width="57.333333333333343" height="29"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gm4-hr-HmU">
+                                            <rect key="frame" x="201" y="45" width="157" height="8"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="8" id="SYX-jJ-QrY"/>
+                                                <constraint firstAttribute="width" constant="157" id="xPK-7I-Iki"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Las Isletas de Granada son un conjunto de pequeñas islas en el lago de Nicaragua, conocidas por su belleza natural " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdq-Ko-r9n">
+                                            <rect key="frame" x="185" y="50" width="189" height="150"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="dmZ-mU-5HB" firstAttribute="top" secondItem="3x9-uX-v1f" secondAttribute="top" constant="8" id="038-Yy-Oh5"/>
+                                        <constraint firstItem="cXv-Rt-30R" firstAttribute="top" secondItem="Pdq-Ko-r9n" secondAttribute="bottom" constant="11" id="2EI-Gl-Omz"/>
+                                        <constraint firstItem="dmZ-mU-5HB" firstAttribute="leading" secondItem="3x9-uX-v1f" secondAttribute="leading" constant="8" id="5zw-9t-zPo"/>
+                                        <constraint firstAttribute="bottom" secondItem="Tn4-iO-lYb" secondAttribute="bottom" constant="18" id="6KP-GV-IFz"/>
+                                        <constraint firstItem="Pdq-Ko-r9n" firstAttribute="leading" secondItem="dmZ-mU-5HB" secondAttribute="trailing" constant="16" id="E8L-3i-YZN"/>
+                                        <constraint firstItem="Gm4-hr-HmU" firstAttribute="centerX" secondItem="3x9-uX-v1f" secondAttribute="centerX" constant="83" id="HwJ-qQ-1YD"/>
+                                        <constraint firstItem="cXv-Rt-30R" firstAttribute="leading" secondItem="dmZ-mU-5HB" secondAttribute="trailing" constant="9.6699999999999999" id="MrL-Vj-Kse"/>
+                                        <constraint firstItem="IeU-6J-T86" firstAttribute="centerY" secondItem="3x9-uX-v1f" secondAttribute="centerY" constant="-95.5" id="RnB-mz-xtD"/>
+                                        <constraint firstAttribute="trailing" secondItem="Pdq-Ko-r9n" secondAttribute="trailing" constant="19" id="TSZ-uq-gwz"/>
+                                        <constraint firstItem="Tn4-iO-lYb" firstAttribute="leading" secondItem="cXv-Rt-30R" secondAttribute="trailing" constant="6.3300000000000001" id="Yn6-2N-oQs"/>
+                                        <constraint firstAttribute="trailing" secondItem="Tn4-iO-lYb" secondAttribute="trailing" constant="8" id="hrs-Zq-Rhy"/>
+                                        <constraint firstAttribute="bottom" secondItem="cXv-Rt-30R" secondAttribute="bottom" constant="18.670000000000002" id="kpK-NP-XH2"/>
+                                        <constraint firstItem="Pdq-Ko-r9n" firstAttribute="top" secondItem="3x9-uX-v1f" secondAttribute="top" constant="50" id="led-B3-jqf"/>
+                                        <constraint firstItem="IeU-6J-T86" firstAttribute="centerX" secondItem="3x9-uX-v1f" secondAttribute="centerX" constant="78" id="vJD-Gu-DKP"/>
+                                        <constraint firstAttribute="height" constant="250" id="wKp-pP-M1W"/>
+                                        <constraint firstItem="Gm4-hr-HmU" firstAttribute="centerY" secondItem="3x9-uX-v1f" secondAttribute="centerY" constant="-76" id="wbc-eM-6Za"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VF4-F8-PCR">
+                                    <rect key="frame" x="0.0" y="750" width="393" height="250"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regions" translatesAutoresizingMaskIntoConstraints="NO" id="dIW-IU-vHH">
+                                            <rect key="frame" x="8" y="8" width="161" height="234"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="234" id="8yN-cJ-jQB"/>
+                                                <constraint firstAttribute="width" constant="161" id="DrA-Lw-y5Q"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ntd-2Y-6MJ">
+                                            <rect key="frame" x="178.66666666666666" y="211" width="125.99999999999997" height="20.333333333333343"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="T5n-ab-VIf">
+                                                    <rect key="frame" x="0.0" y="-0.33333333333333215" width="22.666666666666668" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Nzr-sv-cCt">
+                                                    <rect key="frame" x="25.666666666666686" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6i7-wf-q2g">
+                                                    <rect key="frame" x="51.333333333333343" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uxO-Wu-A34">
+                                                    <rect key="frame" x="77.333333333333343" y="-0.33333333333333215" width="22.666666666666671" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="systemYellowColor"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vG7-0j-CNm">
+                                                    <rect key="frame" x="103.00000000000003" y="-0.33333333333333215" width="23" height="19.999999999999996"/>
+                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20.329999999999998" id="zJM-ia-uxC"/>
+                                            </constraints>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="89,678" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecs-vH-SX6">
+                                            <rect key="frame" x="311" y="211" width="74" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="74" id="3Cw-Ba-Ydf"/>
+                                                <constraint firstAttribute="height" constant="21" id="KFl-3f-hQr"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volcan Masaya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xum-zw-NUC">
+                                            <rect key="frame" x="208" y="15" width="133" height="29"/>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQU-KN-HV8">
+                                            <rect key="frame" x="201" y="45" width="157" height="8"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="8" id="4WN-nR-DOo"/>
+                                                <constraint firstAttribute="width" constant="157" id="vNp-Hn-WCC"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyQ-F8-J4z">
+                                            <rect key="frame" x="185" y="50" width="189" height="150"/>
+                                            <string key="text">El Volcán Masaya en Nicaragua es activo y famoso por su cráter con lava visible.
+
+
+
+
+
+
+
+</string>
+                                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="Ntd-2Y-6MJ" firstAttribute="top" secondItem="xyQ-F8-J4z" secondAttribute="bottom" constant="11" id="0Pn-NH-WdR"/>
+                                        <constraint firstItem="cQU-KN-HV8" firstAttribute="centerY" secondItem="VF4-F8-PCR" secondAttribute="centerY" constant="-76" id="71D-8K-0b1"/>
+                                        <constraint firstItem="Xum-zw-NUC" firstAttribute="centerX" secondItem="VF4-F8-PCR" secondAttribute="centerX" constant="78" id="CJo-Pb-3fo"/>
+                                        <constraint firstItem="xyQ-F8-J4z" firstAttribute="leading" secondItem="dIW-IU-vHH" secondAttribute="trailing" constant="16" id="HAc-Oh-4jh"/>
+                                        <constraint firstItem="dIW-IU-vHH" firstAttribute="top" secondItem="VF4-F8-PCR" secondAttribute="top" constant="8" id="JE9-B5-X9o"/>
+                                        <constraint firstAttribute="height" constant="250" id="Qnm-Od-0nc"/>
+                                        <constraint firstItem="Ecs-vH-SX6" firstAttribute="leading" secondItem="Ntd-2Y-6MJ" secondAttribute="trailing" constant="6.3300000000000001" id="S7v-gc-XDR"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ecs-vH-SX6" secondAttribute="trailing" constant="8" id="WNQ-dr-Vxw"/>
+                                        <constraint firstItem="cQU-KN-HV8" firstAttribute="centerX" secondItem="VF4-F8-PCR" secondAttribute="centerX" constant="83" id="X70-gh-7m3"/>
+                                        <constraint firstAttribute="trailing" secondItem="xyQ-F8-J4z" secondAttribute="trailing" constant="19" id="bGd-Od-6Zc"/>
+                                        <constraint firstItem="Ntd-2Y-6MJ" firstAttribute="leading" secondItem="dIW-IU-vHH" secondAttribute="trailing" constant="9.6699999999999999" id="csZ-lH-KIv"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ecs-vH-SX6" secondAttribute="bottom" constant="18" id="dd3-Ag-fPx"/>
+                                        <constraint firstItem="Xum-zw-NUC" firstAttribute="centerY" secondItem="VF4-F8-PCR" secondAttribute="centerY" constant="-95.5" id="eAF-RX-o47"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ntd-2Y-6MJ" secondAttribute="bottom" constant="18.670000000000002" id="gCY-4K-KGa"/>
+                                        <constraint firstItem="xyQ-F8-J4z" firstAttribute="top" secondItem="VF4-F8-PCR" secondAttribute="top" constant="50" id="jym-Pb-oaR"/>
+                                        <constraint firstItem="dIW-IU-vHH" firstAttribute="leading" secondItem="VF4-F8-PCR" secondAttribute="leading" constant="8" id="vUW-Tq-Fgy"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="aK8-YJ-b66" firstAttribute="width" secondItem="10Z-iJ-ZZd" secondAttribute="width" id="9ZW-tt-GkX"/>
+                        <constraint firstAttribute="trailing" secondItem="aK8-YJ-b66" secondAttribute="trailing" id="LEy-qm-J3e"/>
+                        <constraint firstItem="aK8-YJ-b66" firstAttribute="leading" secondItem="10Z-iJ-ZZd" secondAttribute="leading" id="Tjg-eG-Wxh"/>
+                        <constraint firstItem="aK8-YJ-b66" firstAttribute="top" secondItem="10Z-iJ-ZZd" secondAttribute="top" id="cPc-ds-Yuv"/>
+                        <constraint firstAttribute="bottom" secondItem="aK8-YJ-b66" secondAttribute="bottom" id="nxl-lS-f9g"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqg-T8-ynd">
+                    <rect key="frame" x="0.0" y="59" width="393" height="51"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="AccentColor"/>
+            <constraints>
+                <constraint firstItem="vqg-T8-ynd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3h6-OZ-nRB"/>
+                <constraint firstItem="vqg-T8-ynd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="81w-eN-2Ml"/>
+                <constraint firstItem="10Z-iJ-ZZd" firstAttribute="top" secondItem="vqg-T8-ynd" secondAttribute="bottom" id="NO6-8e-ai2"/>
+                <constraint firstAttribute="bottom" secondItem="10Z-iJ-ZZd" secondAttribute="bottom" id="V5i-5u-cdO"/>
+                <constraint firstItem="10Z-iJ-ZZd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="110" id="eZf-ck-IX5"/>
+                <constraint firstItem="vqg-T8-ynd" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="jyk-n0-gba"/>
+                <constraint firstItem="10Z-iJ-ZZd" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="p1U-gm-XhQ"/>
+                <constraint firstItem="10Z-iJ-ZZd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tla-6L-jba"/>
+            </constraints>
+            <point key="canvasLocation" x="64.885496183206101" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ISLETAS DE GRANADA Cuando el volcán Mombacho hizo…" width="640" height="457"/>
+        <image name="Isla Ometepe" width="736" height="1308"/>
+        <image name="Nicaragua's Unexpected Tropical Charms" width="736" height="981"/>
+        <image name="Regions" width="597" height="900"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
